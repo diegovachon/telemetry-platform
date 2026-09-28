@@ -1,0 +1,25 @@
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Java / Maven
+**/target/
+
+# JavaScript / Angular
+**/node_modules/
+**/.angular/
+**/dist/
+**/coverage/
+
+# Local telemetry data and process state
+telemetry-api/data/
+*.pid
+*.log
+
+# Older duplicate dashboard copies
+telemetry-api/telemetry-dashboard/
+telemetry-dashboard/src/
+telemetry-dashboard/main.ts
+telemetry-dashboard/package.json
+telemetry-dashboard/package-lock.json
